@@ -1,0 +1,15 @@
+@keyframes info-row{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+#info-row{
+    animation: info-row 3s ease-in-out;
+}

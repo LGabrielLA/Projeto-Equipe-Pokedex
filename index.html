@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="icon" href="src/imagens/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="src/imagens/favicon.ico" type="favicon.ico">
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Equipe Pokémon</title>
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="src/css/cartao.css">
     <link rel="stylesheet" href="src/css/listagem.css">
     <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="stylesheet" href="src/css/animacoes.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap" rel="stylesheet">
@@ -18,7 +19,7 @@
 <body>
     <main>
         <div class="pokedex">
-          <div class="cartoes-pokemon">
+          <div class="cartoes-pokemon" id="info-row">
             <div class="cartao-pokemon aberto tipo-psiquico" id="cartao-mewtwo">
               <div class="cartao-topo">
                 <div class="detalhes">
@@ -277,7 +278,7 @@
             </div>
           </div>
   
-          <nav class="listagem">
+          <nav class="listagem" id="info-row">
               <ul>
                   <li class="pokemon ativo" id="mewtwo">
                       <img src="src/imagens/cabeca-mewtwo.png" alt="cabeça do Mewtwo">
